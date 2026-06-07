@@ -2,7 +2,7 @@
 
 [中文](README.md) | [日本語](README_ja.md)
 
-![聊天机器人运行效果](my_chatbot_web/static/images/chatbot_demo.png)
+<p align="center"> <img src="my_chatbot_web/static/images/chatbot_demo.png" alt="聊天机器人运行效果" width="900"> </p>
 
 ## 项目介绍
 
@@ -31,7 +31,7 @@
 
 本项目采用前后端分离和分层设计。Streamlit 客户端通过 HTTP 接口分别访问聊天服务和用户认证服务。
 
-![系统架构图](my_chatbot_web/static/images/system_architecture.png)
+<p align="center"> <img src="my_chatbot_web/static/images/system_architecture.png" alt="系统架构图" width="500"> </p>
 
 ### Web 客户端
 
