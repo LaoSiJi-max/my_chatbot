@@ -2,7 +2,7 @@
 
 [中文](README.md) | [日本語](README_ja.md)
 
-<p align="center"> <img src="my_chatbot_web/static/images/chatbot_demo.png" alt="聊天机器人运行效果" width="900"> </p>
+<p align="center"> <img src="my_chatbot_web/static/images/chatbot_demo.png" alt="聊天机器人运行效果" width="700"> </p>
 
 ## 项目介绍
 
