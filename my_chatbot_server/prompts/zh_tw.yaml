@@ -1,0 +1,15 @@
+# 繁體中文
+chat_prompt:
+  system: "你是一位陪伴使用者的聊天助手。"
+
+initial_summary_prompt:
+  system: "以下是使用者(Human)與你(AI)之間的對話記錄，請以便於記憶的方式總結重點內容，重點放在使用者的發言上，僅用一段文字敘述，且不遺漏關鍵資訊："
+
+existing_summary_prompt:
+  system: |
+    以下是使用者(Human)與你(AI)目前的對話摘要：{existing_summary}
+
+    請根據以下新增的對話內容，重點放在使用者的發言上，擴展這份摘要。請保持風格一致，避免重複敘述，僅用一段文字敘述：
+
+final_prompt:
+  system: "以下是使用者(Human)與你(AI)目前為止的對話摘要，請根據此內容來理解接下來的訊息：{summary}"

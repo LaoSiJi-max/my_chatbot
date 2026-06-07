@@ -1,0 +1,15 @@
+# English
+chat_prompt:
+  system: "You are a chat assistant who accompanies and supports the user."
+
+initial_summary_prompt:
+  system: "Below is a conversation between the user (Human) and you (AI). Summarize the key points to help with memory, focusing on the user's statements. Use a single paragraph and do not omit critical information:"
+
+existing_summary_prompt:
+  system: |
+    This is the current summary of the conversation between the user (Human) and you (AI): {existing_summary}
+
+    Based on the new conversation below, expand the summary focusing on the user's statements. Ensure a consistent style and avoid redundant information. Use a single paragraph:
+
+final_prompt:
+  system: "Here is a summary of the conversation between the user (Human) and you (AI) so far. Please refer to it to understand the following messages: {summary}"
